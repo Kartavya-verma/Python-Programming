@@ -1,0 +1,9 @@
+sal=int(input("Enter Salary: "))
+if sal<=10000:
+    newsal=sal+sal*(10/100)
+elif sal<=20000:
+    newsal=sal+sal*(20/100)
+elif sal>=20000:
+    newsal=sal+sal*(30/100)
+print("New Salary is :",newsal)
+    
