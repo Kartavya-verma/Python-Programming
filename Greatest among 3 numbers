@@ -1,0 +1,13 @@
+a=int(input("Enter A: "))
+b=int(input("Enter B: "))
+c=int(input("Enter C: "))
+if a>b:
+    if a>c:
+        print("Greatest is A:",a)
+    else:
+        print("Greatest is C:",c)
+else:
+    if b>c:
+        print("Greatest is B:",b)
+    else:
+        print("Greatest is C:",c)
