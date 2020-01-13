@@ -1,0 +1,14 @@
+x=int(input("Enter a number: "))
+y=x
+count=0
+sum=0
+while x>0:
+    rem=x%10
+    x=x//10
+    count=rem*rem*rem
+    sum=count+sum
+if sum==y:
+    print(y,"is an Armstrong number")
+else:
+    print(y,"is not an Armstrong number")
+    
