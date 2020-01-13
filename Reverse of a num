@@ -1,0 +1,8 @@
+x=int(input("Enter a number: "))
+count=0
+while x>0:
+    rem=x%10
+    count=count*10+rem
+    print(rem,end="")
+    x=x//10
+
