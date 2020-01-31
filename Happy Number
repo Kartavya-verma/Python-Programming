@@ -1,0 +1,12 @@
+n = int(input("Enter the no.: "))
+while(n!=1 and n!=4):
+      b=0
+      while(n!=0):
+        a = n%10
+        b +=a*a
+        n //=10
+      n = b
+if(n==1):
+      print("Happy number")
+else:
+      print("Not a happy number")
