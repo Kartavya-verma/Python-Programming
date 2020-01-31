@@ -1,0 +1,12 @@
+n = int(input("Enter the number of strings:"))
+l = []
+l1 = []
+for i in range(n):
+    s = input("Enter string:")
+    l1.append(s)
+    l.append(len(s))
+m = max(l)
+for i in range(len(l)):
+    if(l[i]==m):
+        maximum = l1[i] 
+print("Maximum length string :",maximum)
