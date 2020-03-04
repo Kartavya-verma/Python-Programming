@@ -1,0 +1,9 @@
+class student:
+    name = input("Enter your name :")
+    age = int(input("Enter your age :"))
+    rollno = int(input("Enter rollno :"))
+
+obj1 = student()
+print("Students's name is:",obj1.name)
+print("Students's age is:",obj1.age)
+print("Students's roll is:",obj1.rollno)
