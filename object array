@@ -1,0 +1,16 @@
+class sample:
+    def get_value(self,name,age,city):
+        self.name = name
+        self.age = age
+        self.city = city
+
+obj=[]
+n=int(input("Enter the number of objects you want to create:"))
+
+for i in range(n):
+    obj.append(sample())
+    obj[i].get_value(input("Enter name:"),int(input("Enter age:")),input("Enter city:"))
+
+for i in range(n):
+    if(obj[i].city=="indore"):
+        print("Student lives in Indore are: ",obj[i].name)
