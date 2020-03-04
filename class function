@@ -1,0 +1,10 @@
+class sample:
+    def setter(self,x):
+        self.x = int(input("Enter the value of x:"))
+    def getter(self):
+        print("Value of x is ",self.x)
+                      
+
+obj1 = sample()
+obj1.setter(3)
+obj1.getter()
