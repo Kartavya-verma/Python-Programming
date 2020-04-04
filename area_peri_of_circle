@@ -1,0 +1,14 @@
+import math
+
+class circle:
+    def area(self,radius):
+        area=radius*radius*math.pi
+        print("Area of the circle is:",area)
+    def perimeter(self,radius):
+        perimeter=2*radius*math.pi
+        print("Perimeter of the circle is:",perimeter)
+    
+obj=circle()
+r=int(input("Enter the radius of circle:"))
+obj.area(r)
+obj.perimeter(r)
