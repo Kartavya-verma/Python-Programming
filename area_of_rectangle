@@ -1,0 +1,9 @@
+class rectangle:
+    def area(self,length,breadth):
+        area=length*breadth
+        print("Area of the rectange is:",area)
+
+obj=rectangle()
+l=int(input("Enter length of rectangle: "))
+b=int(input("Enter breadth of rectangle: "))
+obj.area(l,b)
