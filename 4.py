@@ -1,16 +1,12 @@
-class Circle:
-    def compute_area(self,rad):
-        return 3.14*rad*rad
-    def compute_perimeter(self,rad):
-        return 2*3.14*rad
-
-
-
-rad=int(input("Enter the radius of the circle\n"))
-obj=Circle()
-area=obj.compute_area(rad)
-print("Area of the Circle is: ",area)
-perimeter=obj.compute_perimeter(rad)
-print("Perimeter of the Circle is: ",perimeter)
-        
-        
+#4.Write a python program to swap two numbers using temporary variable.
+a=10
+b=20
+print("Before swapping")
+print(a)
+print(b)
+c=a
+a=b
+b=c
+print("After swapping")
+print(a)
+print(b)
